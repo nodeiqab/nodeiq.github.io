@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: * **/*
+Copyright: 2026 NodeIQ AB
+License: LicenseRef-NodeIQ-Proprietary
+
+Files: vendor/** third_party/** node_modules/**
+Copyright: See each upstream file
+License: See each upstream file
+Comment: Preserve all upstream notices and terms.
+
+Files: **/*generated* **/generated/**
+Copyright: See generator input and generated-file notices
+License: See generator input and generated-file notices
